@@ -6,9 +6,6 @@ on:
   # Run on pull requests
   pull_request:
     branches: [ main, master ]
-  # Run every day at 4 AM IST (10:30 PM UTC previous day)
-  schedule:
-    - cron: '30 22 * * *'
   # Allow manual trigger from GitHub Actions UI
   workflow_dispatch:
 jobs:
